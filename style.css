@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem; /*Deixa o padding em cima diminuindo em 6rem*/
+}
+
+#margen {
+    margin: 0 15rem 0 15rem;
+    padding: 1rem;
+}
+
+.borda { /*Para marcar uma classe colocamos um ponto*/
+    border-style: solid;
+    background-color: #FCBF45;
+    border-radius: 15px;
+    box-shadow: #072E51;
+    margin-inline: auto;
+}
+
+.box {
+    margin-top: 1rem;
+    width: 36%;
+    display: inline-block;
+}
+
+#presidentes {
+    margin-left: 11rem;
+}
+
+#bandeira {
+    margin-left: 1rem;
+}
+
+header {
+    background-color: #addcff;
+    height: 6rem; /*Unidade de medida relativa, 16 px equivale a 1 rem*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed; /*Fixa a posição*/
+    width: 100%;
+    top: 0; /*Serve para garantir que o header sempre vai estar la em cima*/
+}
+
+header ol {
+    display: flex;
+    gap: 4rem;
+}
+
+header ol, header li {  /*Sem estilo das listas*/
+    list-style: none;
+}
+
+header a {
+    color: #2E4145;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 0.3rem; /*Aumentao o tamanho do espaçamento do fundo*/
+    border-radius: 5px;
+}
+
+header a:hover {
+    background-color: #FCBF45;
+}
+
+header li:hover { /*Quando o cursor passar em cima a cor do fundo será alterado*/
+    transform: scale(1.2);
+    transition: trasnform .4s;
+}
+
+section {
+    border: 1px; /*Coloca a expessura da borda em 1px*/
+    border-style: solid; /*Deixa os estilo da borda solido*/
+    color: #072E51;
+    height: calc(100vh - 3rem); /*o calc realiza o calculo da Altura da tela(100vh) menos 6rem*/
+}
+
+h1 {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.conteudo {
+    margin-top: 15px;
+    padding-left: 2rem;
+    text-align: center;
+}
+
+#inicio {
+    margin-top: 3.5rem;
+}
+
+#historia > div {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+
+#economia > div{
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+
+#geografia > div {
+    padding-top: 2rem;
+    padding: 3rem 3rem 2rem 3rem;
+}
+
+#mapa {
+    padding: 2rem 4rem 2rem 5rem;
+    width: 36%;
+    height: 36%;
+}
+
+.cultura {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+#cultura > div {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+#p-cultura {
+    margin-top: 5rem;
+    padding: 0rem 1rem 1rem 0rem;
+}
+
+#danca {
+    width: 50%;
+    height: 50%;
+    padding-right: 1rem;
+}
+
+.governo {
+    margin-top: 21rem;
+    display: flex;
+    justify-content: center;
+}
+
+#relacoes > div {
+    padding-top: 2rem;
+    display: block;
+}
+
+.relacoes{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+#p-relacoes {
+    padding: 2rem 6rem 2rem 4rem;
+}
+
+#cristina-lula {
+    width: 30%;
+    height: 30%;
+    padding-bottom: 2rem;
+}
+
+.governo {
+    padding-top: 5rem;
+    padding-top: 2rem;
+    margin-top: 2rem;
+}
+
+#p-governo{
+    padding-top: 2rem;
+    margin-top: 2rem;
+}
+
+#presidente-argentina {
+    padding: 2rem;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    background-color: #072E51;
+    color: #FCBF45;
+    border-style: solid;
+    border-radius: 11px;
+    font-size: 15px;
+    margin-inline: auto;
+}
